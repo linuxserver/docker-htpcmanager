@@ -10,8 +10,8 @@ apt-get install \
 $APTLIST -qy && \
 
 # install pip packages
-pip install pillow && \
-pip install paramiko && \
+pip install -U pillow && \
+pip install -U paramiko && \
 apt-get clean && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 #Adding Custom files
