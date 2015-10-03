@@ -2,13 +2,7 @@ FROM linuxserver/baseimage.python
 
 MAINTAINER Sparklyballs <sparklyballs@linuxserver.io>
 
-ENV APTLIST="libfreetype6-dev \
-libjpeg8-dev \
-libopenjpeg-dev \
-libpng-dev \
-libwebp-dev \
-vnstat \
-zlib1g-dev"
+ENV APTLIST="libfreetype6-dev libjpeg8-dev libopenjpeg-dev libpng-dev libwebp-dev vnstat zlib1g-dev"
 
 # install packages
 RUN apt-get update -q && \
