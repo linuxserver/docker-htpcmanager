@@ -12,6 +12,7 @@ $APTLIST -qy && \
 # install pip packages
 pip install -U pillow && \
 pip install -U paramiko && \
+pip install -U psutil && \
 apt-get clean && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 #Adding Custom files
