@@ -43,7 +43,7 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 
 ## Versions
-
++ **14.01.2015:** Remove hardcoded loglevel from the run command, set in webui
 + **19.09.2015:** Initial Release.
 
 
