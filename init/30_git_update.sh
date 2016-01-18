@@ -1,8 +1,11 @@
 #!/bin/bash
 
-if [ ! -d "/app/htpcmanager/.git" ]; then
-/sbin/setuser abc git clone https://github.com/Hellowlol/HTPC-Manager.git /app/htpcmanager
-else
+[[ ! -d /app/htpcmanager/.git ]] && (git clone https://github.com/Hellowlol/HTPC-Manager.git /app/htpcmanager && \
+chown -R abc:abc /app)
+
+# opt out for autoupdates
+[ "$ADVANCED_DISABLEUPDATES" ] && exit 0
+
 cd /app/htpcmanager
-/sbin/setuser abc git pull
-fi
+git pull
+chown -R abc:abc /app
