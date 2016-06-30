@@ -1,3 +1,0 @@
-#!/bin/bash
-/sbin/setuser abc python /app/htpcmanager/Htpc.py --datadir /config
-

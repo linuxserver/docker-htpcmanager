@@ -21,7 +21,7 @@ docker create --name=htpcmanager -v /etc/localtime:/etc/localtime:ro -v <path to
 * `-e PUID` for UserID - see below for explanation
 
 
-It is based on phusion-baseimage with ssh removed, for shell access whilst the container is running do `docker exec -it htpcmanager /bin/bash`.
+It is based on alpine-linux with s6 overlay, for shell access whilst the container is running do `docker exec -it htpcmanager /bin/bash`.
 
 ### User / Group Identifiers
 
@@ -43,7 +43,8 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 
 ## Versions
-+ **14.01.2015:** Remove hardcoded loglevel from the run command, set in webui
-+ **19.09.2015:** Initial Release.
++ **30.06.16:** Rebase to alpine for smaller image size
++ **14.01.15:** Remove hardcoded loglevel from the run command, set in webui
++ **19.09.15:** Initial Release.
 
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/with-contenv bash
 
 [[ ! -d /app/htpcmanager/.git ]] && (git clone https://github.com/Hellowlol/HTPC-Manager.git /app/htpcmanager && \
 chown -R abc:abc /app)
