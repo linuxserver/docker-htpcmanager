@@ -1,2 +1,4 @@
 #!/usr/bin/with-contenv bash
-vnstatd -n
+
+exec \
+	vnstatd -n
