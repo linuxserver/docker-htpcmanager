@@ -11,7 +11,10 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 [![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-htpcmanager/)
 [hub]: https://hub.docker.com/r/linuxserver/htpcmanager/
 
-Htpcmanager, a front end for many htpc related applications. Hellowlol version.[Htpcmanager](http://htpc.io/)
+Htpcmanager, a front end for many htpc related applications. Hellowlol version.[Htpcmanager](https://github.com/Hellowlol/HTPC-Manager)
+
+[![htpcmanager](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png)][htpcurl]
+[htpcurl]: https://github.com/Hellowlol/HTPC-Manager
 
 ## Usage
 
