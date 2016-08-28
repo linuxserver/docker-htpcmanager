@@ -6,6 +6,10 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 * [Podcast](https://www.linuxserver.io/index.php/category/podcast/) covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # linuxserver/htpcmanager
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/htpcmanager.svg)][hub]
+[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/htpcmanager.svg)][hub]
+[![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-htpcmanager/)
+[hub]: https://hub.docker.com/r/linuxserver/htpcmanager/
 
 Htpcmanager, a front end for many htpc related applications. Hellowlol version.[Htpcmanager](http://htpc.io/)
 
@@ -55,6 +59,8 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 
 ## Versions
+
++ **28.08.16:** Add badges to README.
 + **08.08.16:** Rebase to alpine linux.
 + **14.01.15:** Remove hardcoded loglevel from the run command, set in webui
 + **19.09.15:** Initial Release.
