@@ -1,14 +1,17 @@
-![https://linuxserver.io](https://www.linuxserver.io/wp-content/uploads/2015/06/linuxserver_medium.png)
+[linuxserverurl]: https://linuxserver.io
+[forumurl]: https://forum.linuxserver.io
+[ircurl]: https://www.linuxserver.io/index.php/irc/
+[podcasturl]: https://www.linuxserver.io/index.php/category/podcast/
 
-The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io](https://forum.linuxserver.io)
-* [IRC](https://www.linuxserver.io/index.php/irc/) on freenode at `#linuxserver.io`
-* [Podcast](https://www.linuxserver.io/index.php/category/podcast/) covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
+[![linuxserver.io](https://www.linuxserver.io/wp-content/uploads/2015/06/linuxserver_medium.png)][linuxserverurl]
+
+The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
+* [forum.linuxserver.io][forumurl]
+* [IRC][ircurl] on freenode at `#linuxserver.io`
+* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # linuxserver/htpcmanager
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/htpcmanager.svg)][hub]
-[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/htpcmanager.svg)][hub]
-[![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-htpcmanager/)
+[![](https://images.microbadger.com/badges/image/linuxserver/htpcmanager.svg)](http://microbadger.com/images/linuxserver/htpcmanager "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/htpcmanager.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/htpcmanager.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-htpcmanager/)
 [hub]: https://hub.docker.com/r/linuxserver/htpcmanager/
 
 Htpcmanager, a front end for many htpc related applications. Hellowlol version.[Htpcmanager](https://github.com/Hellowlol/HTPC-Manager)
@@ -63,6 +66,7 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 ## Versions
 
++ **10.09.16:** Add layer badges to README.
 + **28.08.16:** Add badges to README.
 + **08.08.16:** Rebase to alpine linux.
 + **14.01.15:** Remove hardcoded loglevel from the run command, set in webui
