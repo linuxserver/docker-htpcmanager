@@ -79,6 +79,7 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 ## Versions
 
++ **25.05.17:** Rebase to alpine 3.6.
 + **07.02.17:** Rebase to alpine 3.5.
 + **14.10.16:** Add version layer information.
 + **26.09.16:** Add back cherrypy after removal from baseimage.
