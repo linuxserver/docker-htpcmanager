@@ -11,6 +11,9 @@ RUN \
  pip install --no-cache-dir -U \
 	cherrypy && \
 
+# install app
+ git clone --depth 1 https://github.com/Hellowlol/HTPC-Manager.git /app/htpcmanager && \
+
 # cleanup
 rm -rf \
 	/root/.cache \
