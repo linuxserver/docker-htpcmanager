@@ -32,7 +32,7 @@ linuxserver/htpcmanager
 
 ## Parameters
 
-`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
+`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side.
 For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
 So -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080
 http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.`
@@ -68,7 +68,7 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 * To monitor the logs of the container in realtime `docker logs -f htpcmanager`.
 
-* container version number 
+* container version number
 
 `docker inspect -f '{{ index .Config.Labels "build_version" }}' htpcmanager`
 
@@ -79,6 +79,7 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 ## Versions
 
++ **16.01.19:** Add pipeline logic and multi arch.
 + **17.08.18:** Rebase to alpine 3.8.
 + **12.12.17:** Rebase to alpine 3.7.
 + **20.07.17:** Internal git pull instead of at runtime.
@@ -91,5 +92,3 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 + **08.08.16:** Rebase to alpine linux.
 + **14.01.15:** Remove hardcoded loglevel from the run command, set in webui
 + **19.09.15:** Initial Release.
-
-
