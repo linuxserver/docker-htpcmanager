@@ -6,7 +6,6 @@ COPY qemu-arm-static /usr/bin
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG HTPCMANAGER_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
@@ -18,16 +17,7 @@ RUN \
  pip install --no-cache-dir -U \
 	cherrypy && \
  echo "**** install app ****" && \
- if [ -z ${HTPCMANAGER_COMMIT+x} ]; then \
-        HTPCMANAGER_COMMIT=$(curl -sX GET https://api.github.com/repos/Hellowlol/HTPC-Manager/commits/master2 \
-        | jq -r '. | .sha'); \
- fi && \
- mkdir -p /app/htpcmanager && \
- cd /app/htpcmanager && \
- git init && \
- git remote add origin https://github.com/Hellowlol/HTPC-Manager.git && \
- git fetch --depth 1 origin ${HTPCMANAGER_COMMIT} && \
- git checkout FETCH_HEAD && \
+ git clone --depth 1 https://github.com/Hellowlol/HTPC-Manager.git /app/htpcmanager && \
  echo "**** cleanup ****" && \
  rm -rf \
 	/root/.cache \
