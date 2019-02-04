@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-htpcmanager
+external_type: github_commit
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master2'
+  - EXT_USER = 'Hellowlol'
+  - EXT_REPO = 'HTPC-Manager'
+  - BUILD_VERSION_ARG = 'HTPCMANAGER_COMMIT'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-htpcmanager'
+  - CONTAINER_NAME = 'htpcmanager'
+  - DOCKERHUB_IMAGE = 'linuxserver/htpcmanager'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/htpcmanager'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/htpcmanager'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8085'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
