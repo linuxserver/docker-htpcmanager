@@ -2,8 +2,8 @@
 
 # project information
 project_name: htpcmanager
-project_url: "https://url.com/"
-project_logo: "https://github.com/Hellowlol/HTPC-Manager"
+project_url: "https://github.com/Hellowlol/HTPC-Manager"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a front end for many htpc related applications. Hellowlol version."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
