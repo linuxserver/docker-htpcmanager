@@ -23,9 +23,9 @@ Find us at:
 [![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Pipeline-Builders/docker-htpcmanager/master)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-htpcmanager/job/master/)
 [![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/htpcmanager/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/htpcmanager/latest/index.html)
 
-[Htpcmanager](https://url.com/) is a front end for many htpc related applications. Hellowlol version.
+[Htpcmanager](https://github.com/Hellowlol/HTPC-Manager) is a front end for many htpc related applications. Hellowlol version.
 
-[![htpcmanager](https://github.com/Hellowlol/HTPC-Manager)](https://url.com/)
+[![htpcmanager](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png)](https://github.com/Hellowlol/HTPC-Manager)
 
 ## Supported Architectures
 
