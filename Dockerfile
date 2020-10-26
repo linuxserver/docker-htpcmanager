@@ -30,20 +30,20 @@ RUN \
 	zlib-dev && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache \
-        python3 \
-        py3-pip \
-        git \
+	python3 \
+	py3-pip \
+	git \
 	vnstat \
-        jq && \
+	jq && \
  echo "**** install app ****" && \
  git clone --depth 1 https://github.com/HTPC-Manager/HTPC-Manager.git /app/htpcmanager && \
  echo "**** install pip packages ****" && \
  sed -i -e '/psutil\|pyopenssl\|pySMART/d' /app/htpcmanager/requirements.txt && \
  pip install --no-cache-dir -U -r /app/htpcmanager/requirements.txt && \
  echo "**** cleanup ****" && \
-  apk del --purge \
+ apk del --purge \
 	build-dependencies && \ 
-  rm -rf \
+ rm -rf \
 	/root/.cache \
 	/tmp/*
 

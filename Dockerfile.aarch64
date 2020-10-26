@@ -9,41 +9,40 @@ LABEL maintainer="notdriz"
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
-        autoconf \
-        automake \
-        freetype-dev \
-        g++ \
-        gcc \
-        jpeg-dev \
-        lcms2-dev \
-        libffi-dev \
-        libpng-dev \
-        libwebp-dev \
-        libxml2-dev \
-        libxslt-dev \
-        linux-headers \
-        make \
-        openjpeg-dev \
-        openssl-dev \
-        python3-dev \
-        tiff-dev \
-        zlib-dev && \
+	autoconf \
+	automake \
+	freetype-dev \
+	g++ \
+	gcc \
+	jpeg-dev \
+	lcms2-dev \
+	libffi-dev \
+	libpng-dev \
+	libwebp-dev \
+	libxml2-dev \
+	libxslt-dev \
+	linux-headers \
+	make \
+	openjpeg-dev \
+	openssl-dev \
+	python3-dev \
+	tiff-dev \
+	zlib-dev && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache \
 	python3 \
 	py3-pip \
 	git \
 	vnstat \
-        jq && \
+	jq && \
  echo "**** install app ****" && \
  git clone --depth 1 https://github.com/HTPC-Manager/HTPC-Manager.git /app/htpcmanager && \
  echo "**** install pip packages ****" && \
  sed -i -e '/psutil\|pyopenssl\|pySMART/d' /app/htpcmanager/requirements.txt && \
  pip install --no-cache-dir -U -r /app/htpcmanager/requirements.txt && \
- pip install cherrypy && \
  echo "**** cleanup ****" && \
-  apk del --purge \
-        build-dependencies && \
+ apk del --purge \
+	build-dependencies && \ 
  rm -rf \
 	/root/.cache \
 	/tmp/*
