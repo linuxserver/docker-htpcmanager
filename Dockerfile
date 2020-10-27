@@ -1,21 +1,48 @@
-FROM lsiobase/python:3.11
+FROM lsiobase/alpine:3.12
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="sparklyballs"
+LABEL maintainer="notdriz"
 
 RUN \
+ echo "**** install build packages ****" && \
+ apk add --no-cache --virtual=build-dependencies \
+	autoconf \
+	automake \
+	freetype-dev \
+	g++ \
+	gcc \
+	jpeg-dev \
+	lcms2-dev \
+	libffi-dev \
+	libpng-dev \
+	libwebp-dev \
+	libxml2-dev \
+	libxslt-dev \
+	linux-headers \
+	make \
+	openjpeg-dev \
+	openssl-dev \
+	python3-dev \
+	tiff-dev \
+	zlib-dev && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache \
-        jq && \
- echo "**** install pip packages ****" && \
- pip install --no-cache-dir -U \
-	cherrypy && \
+	python3 \
+	py3-pip \
+	git \
+	vnstat \
+	jq && \
  echo "**** install app ****" && \
- git clone --depth 1 https://github.com/Hellowlol/HTPC-Manager.git /app/htpcmanager && \
+ git clone --depth 1 https://github.com/HTPC-Manager/HTPC-Manager.git /app/htpcmanager && \
+ echo "**** install pip packages ****" && \
+ sed -i -e '/psutil\|pyopenssl\|pySMART/d' /app/htpcmanager/requirements.txt && \
+ pip install --no-cache-dir -U -r /app/htpcmanager/requirements.txt && \
  echo "**** cleanup ****" && \
+ apk del --purge \
+	build-dependencies && \ 
  rm -rf \
 	/root/.cache \
 	/tmp/*
