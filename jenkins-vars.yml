@@ -8,7 +8,7 @@ release_tag: latest
 ls_branch: master
 repo_vars:
   - EXT_GIT_BRANCH = 'master2'
-  - EXT_USER = 'Hellowlol'
+  - EXT_USER = 'HTPC-Manager'
   - EXT_REPO = 'HTPC-Manager'
   - BUILD_VERSION_ARG = 'HTPCMANAGER_COMMIT'
   - LS_USER = 'linuxserver'
