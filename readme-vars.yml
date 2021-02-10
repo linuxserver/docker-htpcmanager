@@ -42,7 +42,7 @@ app_setup_nginx_reverse_proxy_block: ""
 # changelog
 
 changelogs:
-  - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
+  - { date: "10.02.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "26.10.20:", desc: "Rebase to alpine 3.12, python3, change upstream project" }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
   - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }

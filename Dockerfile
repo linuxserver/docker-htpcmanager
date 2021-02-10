@@ -11,6 +11,7 @@ RUN \
  apk add --no-cache --virtual=build-dependencies \
 	autoconf \
 	automake \
+	cargo \
 	freetype-dev \
 	g++ \
 	gcc \
