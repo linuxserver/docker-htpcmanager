@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+
 exec \
 	s6-setuidgid abc python3 /app/htpcmanager/Htpc.py \
 	--datadir /config
