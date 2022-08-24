@@ -42,6 +42,7 @@ app_setup_nginx_reverse_proxy_block: ""
 # changelog
 
 changelogs:
+  - { date: "24.08.22:", desc: "Rebase to alpine 3.15, use linuxserver.io wheel repo." }
   - { date: "08.04.21:", desc: "Fix build." }
   - { date: "10.02.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "26.10.20:", desc: "Rebase to alpine 3.12, python3, change upstream project" }
