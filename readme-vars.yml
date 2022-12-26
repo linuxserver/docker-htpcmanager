@@ -37,9 +37,6 @@ param_ports:
 app_setup_block_enabled: true
 app_setup_block: "The webui is found at port 8085. Smartmontools and psutil have not been included, you can safely ignore the warning error in the log."
 
-nginx_reverse_proxy_snippet_enabled: false
-nginx_reverse_proxy_block: ""
-
 # changelog
 changelogs:
   - { date: "24.08.22:", desc: "Rebase to alpine 3.15, use linuxserver.io wheel repo." }
