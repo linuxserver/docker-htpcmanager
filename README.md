@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Application Setup
 
@@ -78,7 +78,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
     volumes:
       - /path/to/appdata/config:/config
     ports:
@@ -93,11 +93,12 @@ docker run -d \
   --name=htpcmanager \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -p 8085:8085 \
   -v /path/to/appdata/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/htpcmanager:latest
+
 ```
 
 ## Parameters
@@ -109,7 +110,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8085` | Application WebUI |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London. |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-v /config` | Configuration files. |
 
 ## Environment variables from files (Docker secrets)
@@ -221,6 +222,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.02.23:** - Rebase to Alpine 3.17, migrate to s6v3.
 * **24.08.22:** - Rebase to alpine 3.15, use linuxserver.io wheel repo.
 * **08.04.21:** - Fix build.
 * **10.02.21:** - Rebasing to alpine 3.13.
