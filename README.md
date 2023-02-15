@@ -222,6 +222,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.02.23:** - Rebase to Alpine 3.17, migrate to s6v3.
 * **24.08.22:** - Rebase to alpine 3.15, use linuxserver.io wheel repo.
 * **08.04.21:** - Fix build.
 * **10.02.21:** - Rebasing to alpine 3.13.

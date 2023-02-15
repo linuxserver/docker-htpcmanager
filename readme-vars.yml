@@ -39,6 +39,7 @@ app_setup_block: "The webui is found at port 8085. Smartmontools and psutil have
 
 # changelog
 changelogs:
+  - { date: "13.02.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3." }
   - { date: "24.08.22:", desc: "Rebase to alpine 3.15, use linuxserver.io wheel repo." }
   - { date: "08.04.21:", desc: "Fix build." }
   - { date: "10.02.21:", desc: "Rebasing to alpine 3.13." }
