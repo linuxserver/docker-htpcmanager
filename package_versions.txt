@@ -37,8 +37,8 @@ freetype                2.12.1-r0              apk
 gdbm                    1.23-r0                apk     
 git                     2.38.4-r1              apk     
 idna                    3.4                    python  
-inflect                 6.0.2                  python  
-jaraco.collections      4.0.0                  python  
+inflect                 6.0.4                  python  
+jaraco.collections      4.1.0                  python  
 jaraco.context          4.3.0                  python  
 jaraco.functools        3.6.0                  python  
 jaraco.text             3.11.1                 python  
@@ -94,8 +94,8 @@ pyasn1                  0.4.8                  python
 pycparser               2.21                   python  
 pydantic                1.10.7                 python  
 pypi-xmlrpc             2020.12.3              python  
-python                  3.10.10                binary  
-python3                 3.10.10-r0             apk     
+python                  3.10.11                binary  
+python3                 3.10.11-r0             apk     
 pytz                    2023.3                 python  
 pytz-deprecation-shim   0.1.0.post0            python  
 readline                8.2.0-r0               apk     
@@ -109,7 +109,7 @@ skalibs                 2.12.0.1-r0            apk
 sqlite-libs             3.40.1-r0              apk     
 ssdp                    1.1.1                  python  
 ssl_client              1.35.0-r29             apk     
-tempora                 5.2.1                  python  
+tempora                 5.2.2                  python  
 tiff                    4.4.0-r3               apk     
 typing_extensions       4.5.0                  python  
 tzdata                  2023.3                 python  
