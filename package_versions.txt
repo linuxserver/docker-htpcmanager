@@ -4,7 +4,7 @@ CherryPy                18.8.0                 python
 FormEncode              2.0.1                  python  
 Mako                    1.2.4                  python  
 MarkupSafe              2.1.3                  python  
-Pillow                  9.5.0                  python  
+Pillow                  10.0.0                 python  
 PyDispatcher            2.0.7                  python  
 PyNaCl                  1.5.0                  python  
 SQLObject               3.10.1                 python  
@@ -12,6 +12,7 @@ alpine-baselayout       3.4.0-r0               apk
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
 alpine-release          3.17.4-r0              apk     
+annotated-types         0.5.0                  python  
 aom-libs                3.5.0-r0               apk     
 apk-tools               2.12.10-r1             apk     
 autocommand             2.2.2                  python  
@@ -37,7 +38,7 @@ freetype                2.12.1-r0              apk
 gdbm                    1.23-r0                apk     
 git                     2.38.5-r0              apk     
 idna                    3.4                    python  
-inflect                 6.0.4                  python  
+inflect                 7.0.0                  python  
 jaraco.collections      4.3.0                  python  
 jaraco.context          4.3.0                  python  
 jaraco.functools        3.8.0                  python  
@@ -92,7 +93,8 @@ portend                 3.2.0                  python
 procps                  3.3.17-r2              apk     
 pyasn1                  0.5.0                  python  
 pycparser               2.21                   python  
-pydantic                1.10.9                 python  
+pydantic                2.0.1                  python  
+pydantic_core           2.0.2                  python  
 pypi-xmlrpc             2020.12.3              python  
 python                  3.10.12                binary  
 python3                 3.10.12-r0             apk     
@@ -106,11 +108,11 @@ shadow                  4.13-r0                apk
 six                     1.16.0                 python  
 skalibs                 2.12.0.1-r0            apk     
 sqlite-libs             3.40.1-r0              apk     
-ssdp                    1.2.0                  python  
+ssdp                    1.3.0                  python  
 ssl_client              1.35.0-r29             apk     
 tempora                 5.5.0                  python  
-tiff                    4.4.0-r3               apk     
-typing_extensions       4.6.3                  python  
+tiff                    4.4.0-r4               apk     
+typing_extensions       4.7.1                  python  
 tzdata                  2023c-r0               apk     
 tzlocal                 5.0.1                  python  
 urllib3                 2.0.3                  python  
