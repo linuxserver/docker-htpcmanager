@@ -6,58 +6,52 @@ project_url: "https://github.com/HTPC-Manager/HTPC-Manager"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a front end for many htpc related applications."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # development version
 development_versions: false
 development_versions_items:
-  - { tag: "latest", desc: "Stable Ombi releases" }
-  - { tag: "development", desc: "Releases from the `develop` branch of Ombi" }
-
-
+  - {tag: "latest", desc: "Stable Ombi releases"}
+  - {tag: "development", desc: "Releases from the `develop` branch of Ombi"}
 # container parameters
 common_param_env_vars_enabled: true #PGID, PUID, etc, you can set it to 'optional'
 param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
+  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London."}
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files." }
+  - {vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files."}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8085", internal_port: "8085", port_desc: "Application WebUI" }
-
+  - {external_port: "8085", internal_port: "8085", port_desc: "Application WebUI"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: "The webui is found at port 8085. Smartmontools and psutil have not been included, you can safely ignore the warning error in the log."
-
 # changelog
 changelogs:
-  - { date: "13.02.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3." }
-  - { date: "24.08.22:", desc: "Rebase to alpine 3.15, use linuxserver.io wheel repo." }
-  - { date: "08.04.21:", desc: "Fix build." }
-  - { date: "10.02.21:", desc: "Rebasing to alpine 3.13." }
-  - { date: "26.10.20:", desc: "Rebase to alpine 3.12, python3, change upstream project" }
-  - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
-  - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
-  - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
-  - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }
-  - { date: "16.01.19:", desc: "Add pipeline logic and multi arch." }
-  - { date: "17.08.18:", desc: "Rebase to alpine 3.8." }
-  - { date: "12.12.17:", desc: "Rebase to alpine 3.7." }
-  - { date: "20.07.17:", desc: "Internal git pull instead of at runtime." }
-  - { date: "25.05.17:", desc: "Rebase to alpine 3.6." }
-  - { date: "07.02.17:", desc: "Rebase to alpine 3.5." }
-  - { date: "14.10.16:", desc: "Add version layer information." }
-  - { date: "26.09.16:", desc: "Add back cherrypy after removal from baseimage." }
-  - { date: "10.09.16:", desc: "Add layer badges to README." }
-  - { date: "28.08.16:", desc: "Add badges to README." }
-  - { date: "08.08.16:", desc: "Rebase to alpine linux." }
-  - { date: "14.01.15:", desc: "Remove hardcoded loglevel from the run command, set in webui" }
-  - { date: "19.09.15:", desc: "Initial Release." }
+  - {date: "04.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
+  - {date: "13.02.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3."}
+  - {date: "24.08.22:", desc: "Rebase to alpine 3.15, use linuxserver.io wheel repo."}
+  - {date: "08.04.21:", desc: "Fix build."}
+  - {date: "10.02.21:", desc: "Rebasing to alpine 3.13."}
+  - {date: "26.10.20:", desc: "Rebase to alpine 3.12, python3, change upstream project"}
+  - {date: "19.12.19:", desc: "Rebasing to alpine 3.11."}
+  - {date: "28.06.19:", desc: "Rebasing to alpine 3.10."}
+  - {date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag."}
+  - {date: "22.02.19:", desc: "Rebasing to alpine 3.9."}
+  - {date: "16.01.19:", desc: "Add pipeline logic and multi arch."}
+  - {date: "17.08.18:", desc: "Rebase to alpine 3.8."}
+  - {date: "12.12.17:", desc: "Rebase to alpine 3.7."}
+  - {date: "20.07.17:", desc: "Internal git pull instead of at runtime."}
+  - {date: "25.05.17:", desc: "Rebase to alpine 3.6."}
+  - {date: "07.02.17:", desc: "Rebase to alpine 3.5."}
+  - {date: "14.10.16:", desc: "Add version layer information."}
+  - {date: "26.09.16:", desc: "Add back cherrypy after removal from baseimage."}
+  - {date: "10.09.16:", desc: "Add layer badges to README."}
+  - {date: "28.08.16:", desc: "Add badges to README."}
+  - {date: "08.08.16:", desc: "Rebase to alpine linux."}
+  - {date: "14.01.15:", desc: "Remove hardcoded loglevel from the run command, set in webui"}
+  - {date: "19.09.15:", desc: "Initial Release."}
