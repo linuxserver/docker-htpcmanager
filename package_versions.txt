@@ -28,7 +28,7 @@ certifi                 2023.5.7               python
 cffi                    1.15.1                 python  
 charset-normalizer      3.2.0                  python  
 cheroot                 10.0.0                 python  
-click                   8.1.4                  python  
+click                   8.1.6                  python  
 colorama                0.4.6                  python  
 coreutils               9.1-r0                 apk     
 cryptography            41.0.2                 python  
@@ -51,7 +51,7 @@ libavif                 0.11.1-r0              apk
 libbsd                  0.11.7-r0              apk     
 libbz2                  1.0.8-r4               apk     
 libc-utils              0.7.2-r3               apk     
-libcrypto3              3.0.9-r1               apk     
+libcrypto3              3.0.9-r2               apk     
 libcurl                 8.1.2-r0               apk     
 libdav1d                1.0.0-r2               apk     
 libexpat                2.5.0-r0               apk     
@@ -65,7 +65,7 @@ libmd                   1.0.4-r0               apk
 libpng                  1.6.38-r0              apk     
 libproc                 3.3.17-r2              apk     
 libsm                   1.2.3-r1               apk     
-libssl3                 3.0.9-r1               apk     
+libssl3                 3.0.9-r2               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libuuid                 2.38.1-r1              apk     
 libwebp                 1.2.4-r2               apk     
@@ -88,13 +88,13 @@ nghttp2-libs            1.51.0-r0              apk
 oniguruma               6.9.8-r0               apk     
 paramiko                3.2.0                  python  
 pcre2                   10.42-r0               apk     
-pip                     23.1.2                 python  
+pip                     23.2                   python  
 portend                 3.2.0                  python  
 procps                  3.3.17-r2              apk     
 pyasn1                  0.5.0                  python  
 pycparser               2.21                   python  
-pydantic                2.0.2                  python  
-pydantic_core           2.1.2                  python  
+pydantic                2.0.3                  python  
+pydantic_core           2.3.0                  python  
 pypi-xmlrpc             2020.12.3              python  
 python                  3.10.12                binary  
 python3                 3.10.12-r0             apk     
