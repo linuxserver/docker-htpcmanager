@@ -1,5 +1,5 @@
 NAME                        VERSION                TYPE   
-APScheduler                 3.10.3                 python  
+APScheduler                 3.10.4                 python  
 CherryPy                    18.8.0                 python  
 FormEncode                  2.0.1                  python  
 Mako                        1.2.4                  python  
@@ -28,7 +28,7 @@ certifi                     2023.7.22              python
 cffi                        1.15.1                 python  
 charset-normalizer          3.2.0                  python  
 cheroot                     10.0.0                 python  
-click                       8.1.6                  python  
+click                       8.1.7                  python  
 colorama                    0.4.6                  python  
 coreutils                   9.1-r0                 apk     
 cryptography                41.0.3                 python  
@@ -93,10 +93,9 @@ portend                     3.2.0                  python
 procps                      3.3.17-r2              apk     
 pyasn1                      0.5.0                  python  
 pycparser                   2.21                   python  
-pydantic                    2.1.1                  python  
-pydantic_core               2.4.0                  python  
+pydantic                    2.2.1                  python  
+pydantic_core               2.6.1                  python  
 pypi-xmlrpc                 2020.12.3              python  
-python                      3.10.12                binary  
 python3                     3.10.12-r0             apk     
 pytz                        2023.3                 python  
 readline                    8.2.0-r0               apk     
@@ -118,7 +117,7 @@ tzlocal                     5.0.1                  python
 urllib3                     2.0.4                  python  
 utmps-libs                  0.1.2.0-r1             apk     
 vnstat                      2.10-r0                apk     
-wheel                       0.41.1                 python  
+wheel                       0.41.2                 python  
 workerpool                  0.9.4                  python  
 xmltodict                   0.13.0                 python  
 xz                          5.2.9-r0               apk     
