@@ -32,6 +32,7 @@ app_setup_block_enabled: true
 app_setup_block: "The webui is found at port 8085. Smartmontools and psutil have not been included, you can safely ignore the warning error in the log."
 # changelog
 changelogs:
+  - {date: "25.08.23:", desc: "Rebase to Alpine 3.18."}
   - {date: "04.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "13.02.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3."}
   - {date: "24.08.22:", desc: "Rebase to alpine 3.15, use linuxserver.io wheel repo."}
