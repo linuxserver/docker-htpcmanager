@@ -66,7 +66,7 @@ libmd                       1.0.4-r2                apk
 libncursesw                 6.4_p20230506-r0        apk     
 libpanelw                   6.4_p20230506-r0        apk     
 libpng                      1.6.39-r3               apk     
-libproc2                    4.0.3-r1                apk     
+libproc2                    4.0.4-r0                apk     
 libsm                       1.2.4-r1                apk     
 libssl3                     3.1.2-r0                apk     
 libstdc++                   12.2.1_git20220924-r10  apk     
@@ -93,7 +93,7 @@ paramiko                    3.3.1                   python
 pcre2                       10.42-r1                apk     
 pip                         23.2.1                  python  
 portend                     3.2.0                   python  
-procps-ng                   4.0.3-r1                apk     
+procps-ng                   4.0.4-r0                apk     
 pyasn1                      0.5.0                   python  
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
@@ -103,7 +103,7 @@ pypi-xmlrpc                 2020.12.3               python
 python3                     3.11.5-r0               apk     
 python3-pyc                 3.11.5-r0               apk     
 python3-pycache-pyc0        3.11.5-r0               apk     
-pytz                        2023.3                  python  
+pytz                        2023.3.post1            python  
 readline                    8.2.1-r1                apk     
 requests                    2.31.0                  python  
 requests-futures            1.0.1                   python  
