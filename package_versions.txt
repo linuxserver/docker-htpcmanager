@@ -12,7 +12,7 @@ Simple Launcher Executable  1.1.0.14                dotnet
 alpine-baselayout           3.4.3-r1                apk     
 alpine-baselayout-data      3.4.3-r1                apk     
 alpine-keys                 2.4-r1                  apk     
-alpine-release              3.18.3-r0               apk     
+alpine-release              3.18.4-r0               apk     
 annotated-types             0.5.0                   python  
 aom-libs                    3.6.1-r0                apk     
 apk-tools                   2.14.0-r2               apk     
@@ -25,8 +25,8 @@ busybox-binsh               1.36.1-r2               apk
 ca-certificates             20230506-r0             apk     
 ca-certificates-bundle      20230506-r0             apk     
 certifi                     2023.7.22               python  
-cffi                        1.15.1                  python  
-charset-normalizer          3.2.0                   python  
+cffi                        1.16.0                  python  
+charset-normalizer          3.3.0                   python  
 cheroot                     10.0.0                  python  
 click                       8.1.7                   python  
 colorama                    0.4.6                   python  
@@ -97,7 +97,7 @@ procps-ng                   4.0.4-r0                apk
 pyasn1                      0.5.0                   python  
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
-pydantic                    2.4.1                   python  
+pydantic                    2.4.2                   python  
 pydantic_core               2.10.1                  python  
 pypi-xmlrpc                 2020.12.3               python  
 python3                     3.11.5-r0               apk     
@@ -120,7 +120,7 @@ tiff                        4.5.1-r0                apk
 typing_extensions           4.8.0                   python  
 tzdata                      2023c-r1                apk     
 tzlocal                     5.0.1                   python  
-urllib3                     2.0.5                   python  
+urllib3                     2.0.6                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 vnstat                      2.11-r0                 apk     
 wheel                       0.41.2                  python  
