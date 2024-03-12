@@ -102,7 +102,7 @@ procps-ng               4.0.4-r0               apk
 pyasn1                  0.5.1                  python                   
 pyc                     3.11.8-r0              apk                      
 pycparser               2.21                   python                   
-pydantic                2.6.3                  python                   
+pydantic                2.6.4                  python                   
 pydantic_core           2.16.3                 python                   
 pypi-xmlrpc             2020.12.3              python                   
 python3                 3.11.8-r0              apk                      
@@ -128,7 +128,7 @@ tzlocal                 5.2                    python
 urllib3                 2.2.1                  python                   
 utmps-libs              0.1.2.2-r0             apk                      
 vnstat                  2.11-r0                apk                      
-wheel                   0.42.0                 python                   
+wheel                   0.43.0                 python                   
 workerpool              0.9.4                  python                   
 xmltodict               0.13.0                 python                   
 xz-libs                 5.4.5-r0               apk                      
