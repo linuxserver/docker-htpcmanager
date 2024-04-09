@@ -13,8 +13,9 @@ alpine-baselayout-data  3.4.3-r2               apk
 alpine-keys             2.4-r1                 apk                      
 alpine-release          3.19.1-r0              apk                      
 aom-libs                3.7.1-r0               apk                      
-apk-tools               2.14.0-r5              apk                      
+apk-tools               2.14.3-r1              apk                      
 autocommand             2.2.2                  python                   
+backports.tarfile       1.0.0                  python                   
 bash                    5.2.21-r0              apk                      
 bcrypt                  4.1.2                  python                   
 brotli-libs             1.1.0-r1               apk                      
@@ -42,7 +43,7 @@ git                     2.43.0-r0              apk
 idna                    3.6                    python                   
 inflect                 7.2.0                  python                   
 jaraco.collections      5.0.0                  python                   
-jaraco.context          4.3.0                  python                   
+jaraco.context          5.3.0                  python                   
 jaraco.functools        4.0.0                  python                   
 jaraco.text             3.12.0                 python                   
 jq                      1.7.1-r0               apk                      
@@ -120,7 +121,7 @@ ssl_client              1.36.1-r15             apk
 tempora                 5.5.1                  python                   
 tiff                    4.6.0-r0               apk                      
 typeguard               4.2.1                  python                   
-typing_extensions       4.10.0                 python                   
+typing_extensions       4.11.0                 python                   
 tzdata                  2024a-r0               apk                      
 tzlocal                 5.2                    python                   
 urllib3                 2.2.1                  python                   
