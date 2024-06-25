@@ -11,7 +11,7 @@ Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)
 alpine-baselayout       3.4.3-r2               apk                      
 alpine-baselayout-data  3.4.3-r2               apk                      
 alpine-keys             2.4-r1                 apk                      
-alpine-release          3.19.1-r0              apk                      
+alpine-release          3.19.2-r0              apk                      
 aom-libs                3.7.1-r0               apk                      
 apk-tools               2.14.4-r0              apk                      
 autocommand             2.2.2                  python                   
@@ -43,7 +43,7 @@ freetype                2.13.2-r0              apk
 gdbm                    1.23-r1                apk                      
 git                     2.43.4-r0              apk                      
 idna                    3.7                    python                   
-inflect                 7.2.1                  python                   
+inflect                 7.3.0                  python                   
 jaraco.collections      5.0.1                  python                   
 jaraco.context          5.3.0                  python                   
 jaraco.functools        4.0.1                  python                   
@@ -98,7 +98,7 @@ oniguruma               6.9.9-r0               apk
 paramiko                3.4.0                  python                   
 pcre2                   10.42-r2               apk                      
 pillow                  10.3.0                 python                   
-pip                     24.0                   python                   
+pip                     24.1                   python                   
 portend                 3.2.0                  python                   
 procps-ng               4.0.4-r0               apk                      
 pyasn1                  0.6.0                  python                   
