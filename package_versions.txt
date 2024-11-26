@@ -6,7 +6,7 @@ alpine-keys             2.4-r1                 apk
 alpine-release          3.20.3-r0              apk                      
 aom-libs                3.9.1-r0               apk                      
 apk-tools               2.14.4-r0              apk                      
-apscheduler             3.10.4                 python                   
+apscheduler             3.11.0                 python                   
 autocommand             2.2.2                  python  (+1 duplicate)   
 backports-tarfile       1.2.0                  python                   
 bash                    5.2.26-r0              apk                      
@@ -122,7 +122,7 @@ readline                8.2.10-r0              apk
 requests                2.32.3                 python                   
 requests-futures        1.0.2                  python                   
 scanelf                 1.3.7-r2               apk                      
-setuptools              75.5.0                 python                   
+setuptools              75.6.0                 python                   
 shadow                  4.15.1-r0              apk                      
 six                     1.16.0                 python                   
 skalibs                 2.14.1.1-r0            apk                      
@@ -141,7 +141,7 @@ urllib3                 2.2.3                  python
 utmps-libs              0.1.2.2-r1             apk                      
 vnstat                  2.12-r0                apk                      
 wheel                   0.43.0                 python                   
-wheel                   0.45.0                 python                   
+wheel                   0.45.1                 python                   
 workerpool              0.9.4                  python                   
 xmltodict               0.14.2                 python                   
 xz-libs                 5.6.2-r0               apk                      
