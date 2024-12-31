@@ -130,7 +130,7 @@ sqlite-libs             3.45.3-r1              apk
 sqlobject               3.12.0                 python                   
 ssdp                    1.3.0                  python                   
 ssl_client              1.36.1-r29             apk                      
-tempora                 5.7.0                  python                   
+tempora                 5.8.0                  python                   
 tiff                    4.6.0t-r0              apk                      
 tomli                   2.0.1                  python                   
 typeguard               4.3.0                  python                   
