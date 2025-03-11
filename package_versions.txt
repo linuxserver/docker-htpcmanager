@@ -123,12 +123,12 @@ readline                8.2.10-r0              apk
 requests                2.32.3                 python                   
 requests-futures        1.0.2                  python                   
 scanelf                 1.3.7-r2               apk                      
-setuptools              75.8.2                 python                   
+setuptools              76.0.0                 python                   
 shadow                  4.15.1-r0              apk                      
 six                     1.17.0                 python                   
 skalibs                 2.14.1.1-r0            apk                      
 sqlite-libs             3.45.3-r1              apk                      
-sqlobject               3.12.0.post2           python                   
+sqlobject               3.13.0                 python                   
 ssdp                    1.3.0                  python                   
 ssl_client              1.36.1-r29             apk                      
 tempora                 5.8.0                  python                   
@@ -137,7 +137,7 @@ tomli                   2.0.1                  python
 typeguard               4.3.0                  python                   
 typing-extensions       4.12.2                 python                   
 tzdata                  2025a-r0               apk                      
-tzlocal                 5.3                    python                   
+tzlocal                 5.3.1                  python                   
 urllib3                 2.3.0                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
 vnstat                  2.12-r0                apk                      
