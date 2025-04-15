@@ -87,7 +87,7 @@ libxext                 1.3.6-r2               apk
 libxpm                  3.5.17-r0              apk                     
 libxt                   1.3.0-r5               apk                     
 linux-pam               1.6.0-r0               apk                     
-mako                    1.3.9                  python                  
+mako                    1.3.10                 python                  
 markupsafe              3.0.2                  python                  
 more-itertools          10.3.0                 python                  
 more-itertools          10.6.0                 python                  
@@ -99,24 +99,24 @@ ncurses-terminfo-base   6.4_p20240420-r2       apk
 netcat-openbsd          1.226-r0               apk                     
 nghttp2-libs            1.62.1-r0              apk                     
 oniguruma               6.9.9-r0               apk                     
-packaging               24.2                   python  (+1 duplicate)  
+packaging               24.2                   python                  
 paramiko                3.5.1                  python                  
 pcre2                   10.43-r0               apk                     
-pillow                  11.1.0                 python                  
+pillow                  11.2.1                 python                  
 pip                     25.0.1                 python                  
 platformdirs            4.2.2                  python                  
 portend                 3.2.0                  python                  
 procps-ng               4.0.4-r0               apk                     
 pyasn1                  0.6.1                  python                  
-pyc                     3.12.9-r0              apk                     
+pyc                     3.12.10-r0             apk                     
 pycparser               2.22                   python                  
 pydispatcher            2.0.7                  python                  
 pynacl                  1.5.0                  python                  
 pypi-xmlrpc             2020.12.3              python                  
 python-dateutil         2.9.0.post0            python                  
-python3                 3.12.9-r0              apk                     
-python3-pyc             3.12.9-r0              apk                     
-python3-pycache-pyc0    3.12.9-r0              apk                     
+python3                 3.12.10-r0             apk                     
+python3-pyc             3.12.10-r0             apk                     
+python3-pycache-pyc0    3.12.10-r0             apk                     
 pytz                    2025.2                 python                  
 readline                8.2.10-r0              apk                     
 requests                2.32.3                 python                  
@@ -126,7 +126,7 @@ setuptools              78.1.0                 python
 shadow                  4.15.1-r0              apk                     
 six                     1.17.0                 python                  
 skalibs                 2.14.1.1-r0            apk                     
-sqlite-libs             3.45.3-r1              apk                     
+sqlite-libs             3.45.3-r2              apk                     
 sqlobject               3.13.0                 python                  
 ssdp                    1.3.0                  python                  
 ssl_client              1.36.1-r29             apk                     
@@ -137,11 +137,10 @@ typeguard               4.3.0                  python
 typing-extensions       4.12.2                 python                  
 tzdata                  2025b-r0               apk                     
 tzlocal                 5.3.1                  python                  
-urllib3                 2.3.0                  python                  
+urllib3                 2.4.0                  python                  
 utmps-libs              0.1.2.2-r1             apk                     
 vnstat                  2.12-r0                apk                     
-wheel                   0.45.1                 python                  
-wheel                   0.46.1                 python                  
+wheel                   0.45.1                 python  (+1 duplicate)  
 workerpool              0.9.4                  python                  
 xmltodict               0.14.2                 python                  
 xz-libs                 5.6.2-r1               apk                     
