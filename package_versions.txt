@@ -114,7 +114,7 @@ pcre2                   10.43-r0               apk
 pillow                  11.2.1                 python                   
 pip                     25.1.1                 python                   
 platformdirs            4.2.2                  python                   
-portend                 3.2.0                  python                   
+portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
 pyasn1                  0.6.1                  python                   
 pyc                     3.12.10-r1             apk                      
