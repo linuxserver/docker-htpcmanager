@@ -33,7 +33,7 @@ coreutils               9.5-r2                 apk
 coreutils-env           9.5-r2                 apk                      
 coreutils-fmt           9.5-r2                 apk                      
 coreutils-sha512sum     9.5-r2                 apk                      
-cryptography            45.0.7                 python                   
+cryptography            46.0.0                 python                   
 curl                    8.12.1-r0              apk                      
 filetype                1.2.0                  python                   
 findutils               4.9.0-r5               apk                      
@@ -123,7 +123,7 @@ pyasn1                  0.6.1                  python
 pyc                     3.12.11-r0             apk                      
 pycparser               2.23                   python                   
 pydispatcher            2.0.7                  python                   
-pynacl                  1.5.0                  python                   
+pynacl                  1.6.0                  python                   
 pypi-xmlrpc             2020.12.3              python                   
 python-dateutil         2.9.0.post0            python                   
 python3                 3.12.11-r0             apk                      
@@ -154,7 +154,7 @@ utmps-libs              0.1.2.2-r1             apk
 vnstat                  2.12-r0                apk                      
 wheel                   0.45.1                 python  (+1 duplicate)   
 workerpool              0.9.4                  python                   
-xmltodict               0.15.1                 python                   
+xmltodict               1.0.0                  python                   
 xz-libs                 5.6.2-r1               apk                      
 zc-lockfile             3.0.post1              python                   
 zipp                    3.19.2                 python                   
