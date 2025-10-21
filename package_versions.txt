@@ -33,7 +33,7 @@ coreutils               9.5-r2                 apk
 coreutils-env           9.5-r2                 apk                      
 coreutils-fmt           9.5-r2                 apk                      
 coreutils-sha512sum     9.5-r2                 apk                      
-cryptography            46.0.2                 python                   
+cryptography            46.0.3                 python                   
 curl                    8.14.1-r2              apk                      
 filetype                1.2.0                  python                   
 findutils               4.9.0-r5               apk                      
@@ -114,7 +114,7 @@ oniguruma               6.9.9-r0               apk
 packaging               24.2                   python                   
 paramiko                4.0.0                  python                   
 pcre2                   10.43-r0               apk                      
-pillow                  11.3.0                 python                   
+pillow                  12.0.0                 python                   
 pip                     25.2                   python                   
 platformdirs            4.2.2                  python                   
 portend                 3.2.1                  python                   
