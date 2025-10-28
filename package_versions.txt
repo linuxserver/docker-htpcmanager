@@ -115,7 +115,7 @@ packaging               24.2                   python
 paramiko                4.0.0                  python                   
 pcre2                   10.43-r0               apk                      
 pillow                  12.0.0                 python                   
-pip                     25.2                   python                   
+pip                     25.3                   python                   
 platformdirs            4.2.2                  python                   
 portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
