@@ -81,7 +81,7 @@ libjpeg-turbo           3.0.3-r0               apk
 libmd                   1.1.0-r0               apk                      
 libncursesw             6.4_p20240420-r2       apk                      
 libpanelw               6.4_p20240420-r2       apk                      
-libpng                  1.6.44-r0              apk                      
+libpng                  1.6.53-r0              apk                      
 libproc2                4.0.4-r0               apk                      
 libpsl                  0.21.5-r1              apk                      
 libsharpyuv             1.3.2-r0               apk                      
@@ -139,7 +139,7 @@ shadow                  4.15.1-r0              apk
 six                     1.17.0                 python                   
 skalibs                 2.14.1.1-r0            apk                      
 sqlite-libs             3.45.3-r2              apk                      
-sqlobject               3.13.0                 python                   
+sqlobject               3.13.1                 python                   
 ssdp                    1.3.1                  python                   
 ssl_client              1.36.1-r31             apk                      
 tempora                 5.8.1                  python                   
@@ -149,7 +149,7 @@ typeguard               4.3.0                  python
 typing-extensions       4.12.2                 python                   
 tzdata                  2025b-r0               apk                      
 tzlocal                 5.3.1                  python                   
-urllib3                 2.5.0                  python                   
+urllib3                 2.6.1                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
 vnstat                  2.12-r0                apk                      
 wheel                   0.45.1                 python  (+1 duplicate)   
