@@ -6,7 +6,7 @@ alpine-keys             2.4-r1                 apk
 alpine-release          3.20.8-r0              apk                      
 aom-libs                3.9.1-r0               apk                      
 apk-tools               2.14.4-r1              apk                      
-apscheduler             3.11.1                 python                   
+apscheduler             3.11.2                 python                   
 autocommand             2.2.2                  python  (+1 duplicate)   
 backports-tarfile       1.2.0                  python                   
 bash                    5.2.26-r0              apk                      
@@ -57,7 +57,7 @@ jaraco-collections      5.2.1                  python
 jaraco-context          5.3.0                  python                   
 jaraco-context          6.0.1                  python                   
 jaraco-functools        4.0.1                  python                   
-jaraco-functools        4.3.0                  python                   
+jaraco-functools        4.4.0                  python                   
 jaraco-text             3.12.1                 python                   
 jaraco-text             4.0.0                  python                   
 jq                      1.7.1-r0               apk                      
