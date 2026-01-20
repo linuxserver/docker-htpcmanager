@@ -119,7 +119,7 @@ pip                     25.3                   python
 platformdirs            4.2.2                  python                   
 portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
-pyasn1                  0.6.1                  python                   
+pyasn1                  0.6.2                  python                   
 pyc                     3.12.12-r0             apk                      
 pycparser               2.23                   python                   
 pydispatcher            2.0.7                  python                   
