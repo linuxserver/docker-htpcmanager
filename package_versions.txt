@@ -4,10 +4,11 @@ alpine-baselayout       3.6.5-r0               apk
 alpine-baselayout-data  3.6.5-r0               apk                      
 alpine-keys             2.4-r1                 apk                      
 alpine-release          3.20.9-r0              apk                      
+annotated-doc           0.0.4                  python                   
 aom-libs                3.9.1-r0               apk                      
 apk-tools               2.14.4-r1              apk                      
 apscheduler             3.11.2                 python                   
-autocommand             2.2.2                  python  (+1 duplicate)   
+autocommand             2.2.2                  python                   
 backports-tarfile       1.2.0                  python                   
 bash                    5.2.26-r0              apk                      
 bcrypt                  5.0.0                  python                   
@@ -33,7 +34,7 @@ coreutils               9.5-r2                 apk
 coreutils-env           9.5-r2                 apk                      
 coreutils-fmt           9.5-r2                 apk                      
 coreutils-sha512sum     9.5-r2                 apk                      
-cryptography            46.0.4                 python                   
+cryptography            46.0.5                 python                   
 curl                    8.14.1-r2              apk                      
 filetype                1.2.0                  python                   
 findutils               4.9.0-r5               apk                      
@@ -54,7 +55,8 @@ invoke                  2.2.1                  python
 jaraco-collections      5.2.1                  python                   
 jaraco-context          6.1.0                  python  (+1 duplicate)   
 jaraco-functools        4.4.0                  python  (+1 duplicate)   
-jaraco-text             4.0.0                  python  (+1 duplicate)   
+jaraco-text             4.0.0                  python                   
+jaraco-text             4.2.0                  python                   
 jq                      1.7.1-r0               apk                      
 jsonrpclib-pelix        1.0.0                  python                   
 libacl                  2.3.2-r0               apk                      
@@ -100,7 +102,6 @@ more-itertools          10.8.0                 python  (+1 duplicate)
 mpdecimal               4.0.0-r0               apk                      
 musl                    1.2.5-r1               apk                      
 musl-utils              1.2.5-r1               apk                      
-my-test-package         1.0                    python                   
 ncurses-terminfo-base   6.4_p20240420-r2       apk                      
 netcat-openbsd          1.226-r0               apk                      
 nghttp2-libs            1.62.1-r0              apk                      
@@ -109,7 +110,7 @@ packaging               26.0                   python  (+1 duplicate)
 paramiko                4.0.0                  python                   
 pcre2                   10.43-r0               apk                      
 pillow                  12.1.0                 python                   
-pip                     26.0                   python                   
+pip                     26.0.1                 python                   
 platformdirs            4.4.0                  python                   
 portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
@@ -128,17 +129,18 @@ readline                8.2.10-r0              apk
 requests                2.32.5                 python                   
 requests-futures        1.0.2                  python                   
 scanelf                 1.3.7-r2               apk                      
-setuptools              80.10.2                python                   
+setuptools              82.0.0                 python                   
 shadow                  4.15.1-r0              apk                      
 six                     1.17.0                 python                   
 skalibs                 2.14.1.1-r0            apk                      
-sqlite-libs             3.45.3-r2              apk                      
+sqlite-libs             3.45.3-r3              apk                      
 sqlobject               3.13.1                 python                   
 ssdp                    1.3.1                  python                   
 ssl_client              1.36.1-r31             apk                      
 tempora                 5.8.1                  python                   
 tiff                    4.6.0t-r0              apk                      
 tomli                   2.4.0                  python                   
+typer-slim              0.21.2                 python                   
 tzdata                  2025c-r0               apk                      
 tzlocal                 5.3.1                  python                   
 urllib3                 2.6.3                  python                   
