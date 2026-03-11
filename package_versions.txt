@@ -21,7 +21,7 @@ ca-certificates-bundle  20250911-r0            apk
 catatonit               0.2.0-r0               apk                      
 certifi                 2026.2.25              python                   
 cffi                    2.0.0                  python                   
-charset-normalizer      3.4.4                  python                   
+charset-normalizer      3.4.5                  python                   
 cheroot                 11.1.2                 python                   
 cherrypy                18.10.0                python                   
 cli                     UNKNOWN                binary                   
@@ -53,7 +53,8 @@ idna                    3.11                   python
 importlib-metadata      8.7.1                  python                   
 invoke                  2.2.1                  python                   
 jaraco-collections      5.2.1                  python                   
-jaraco-context          6.1.0                  python  (+1 duplicate)   
+jaraco-context          6.1.0                  python                   
+jaraco-context          6.1.1                  python                   
 jaraco-functools        4.4.0                  python  (+1 duplicate)   
 jaraco-text             4.0.0                  python                   
 jaraco-text             4.2.0                  python                   
@@ -133,7 +134,7 @@ requests                2.32.5                 python
 requests-futures        1.0.2                  python                   
 rich                    14.3.3                 python                   
 scanelf                 1.3.7-r2               apk                      
-setuptools              82.0.0                 python                   
+setuptools              82.0.1                 python                   
 shadow                  4.15.1-r0              apk                      
 shellingham             1.5.4                  python                   
 six                     1.17.0                 python                   
@@ -147,7 +148,7 @@ tiff                    4.6.0t-r0              apk
 tomli                   2.4.0                  python                   
 typer                   0.24.1                 python                   
 typer-slim              0.24.0                 python                   
-tzdata                  2025c-r0               apk                      
+tzdata                  2026a-r0               apk                      
 tzlocal                 5.3.1                  python                   
 urllib3                 2.6.3                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
