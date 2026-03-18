@@ -21,7 +21,7 @@ ca-certificates-bundle  20250911-r0            apk
 catatonit               0.2.0-r0               apk                      
 certifi                 2026.2.25              python                   
 cffi                    2.0.0                  python                   
-charset-normalizer      3.4.5                  python                   
+charset-normalizer      3.4.6                  python                   
 cheroot                 11.1.2                 python                   
 cherrypy                18.10.0                python                   
 cli                     UNKNOWN                binary                   
@@ -117,7 +117,7 @@ pip                     26.0.1                 python
 platformdirs            4.4.0                  python                   
 portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
-pyasn1                  0.6.2                  python                   
+pyasn1                  0.6.3                  python                   
 pyc                     3.12.12-r0             apk                      
 pycparser               3.0                    python                   
 pydispatcher            2.0.7                  python                   
