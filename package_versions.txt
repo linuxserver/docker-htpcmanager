@@ -19,7 +19,7 @@ c-ares                  1.33.1-r0              apk
 ca-certificates         20260413-r0            apk                      
 ca-certificates-bundle  20260413-r0            apk                      
 catatonit               0.2.0-r0               apk                      
-certifi                 2026.2.25              python                   
+certifi                 2026.4.22              python                   
 cffi                    2.0.0                  python                   
 charset-normalizer      3.4.7                  python                   
 cheroot                 11.1.2                 python                   
@@ -28,13 +28,13 @@ cli                     UNKNOWN                binary
 cli-32                  UNKNOWN                binary                   
 cli-64                  UNKNOWN                binary                   
 cli-arm64               UNKNOWN                binary                   
-click                   8.3.2                  python                   
+click                   8.3.3                  python                   
 colorama                0.4.6                  python                   
 coreutils               9.5-r2                 apk                      
 coreutils-env           9.5-r2                 apk                      
 coreutils-fmt           9.5-r2                 apk                      
 coreutils-sha512sum     9.5-r2                 apk                      
-cryptography            46.0.7                 python                   
+cryptography            47.0.0                 python                   
 curl                    8.14.1-r2              apk                      
 filetype                1.2.0                  python                   
 findutils               4.9.0-r5               apk                      
@@ -49,7 +49,7 @@ gui                     UNKNOWN                binary
 gui-32                  UNKNOWN                binary                   
 gui-64                  UNKNOWN                binary                   
 gui-arm64               UNKNOWN                binary                   
-idna                    3.12                   python                   
+idna                    3.13                   python                   
 importlib-metadata      8.7.1                  python                   
 invoke                  3.0.3                  python                   
 jaraco-collections      5.2.1                  python                   
@@ -97,7 +97,7 @@ libxext                 1.3.6-r2               apk
 libxpm                  3.5.19-r0              apk                      
 libxt                   1.3.0-r5               apk                      
 linux-pam               1.6.0-r0               apk                      
-mako                    1.3.11                 python                   
+mako                    1.3.12                 python                   
 markdown-it-py          4.0.0                  python                   
 markupsafe              3.0.3                  python                   
 mdurl                   0.1.2                  python                   
@@ -111,11 +111,11 @@ netcat-openbsd          1.226-r0               apk
 nghttp2-libs            1.62.1-r0              apk                      
 oniguruma               6.9.9-r0               apk                      
 packaging               26.0                   python                   
-packaging               26.1                   python                   
+packaging               26.2                   python                   
 paramiko                4.0.0                  python                   
 pcre2                   10.43-r0               apk                      
 pillow                  12.2.0                 python                   
-pip                     26.0.1                 python                   
+pip                     26.1                   python                   
 platformdirs            4.4.0                  python                   
 portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
@@ -148,14 +148,15 @@ ssl_client              1.36.1-r31             apk
 tempora                 5.8.1                  python                   
 tiff                    4.6.0t-r0              apk                      
 tomli                   2.4.0                  python                   
-typer                   0.24.1                 python                   
+typer                   0.25.0                 python                   
 typer-slim              0.24.0                 python                   
 tzdata                  2026a-r0               apk                      
 tzlocal                 5.3.1                  python                   
 urllib3                 2.6.3                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
 vnstat                  2.12-r0                apk                      
-wheel                   0.46.3                 python  (+1 duplicate)   
+wheel                   0.46.3                 python                   
+wheel                   0.47.0                 python                   
 workerpool              0.9.4                  python                   
 xmltodict               1.0.4                  python                   
 xz-libs                 5.6.2-r1               apk                      
