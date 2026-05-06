@@ -34,7 +34,7 @@ coreutils               9.5-r2                 apk
 coreutils-env           9.5-r2                 apk                      
 coreutils-fmt           9.5-r2                 apk                      
 coreutils-sha512sum     9.5-r2                 apk                      
-cryptography            47.0.0                 python                   
+cryptography            48.0.0                 python                   
 curl                    8.14.1-r2              apk                      
 filetype                1.2.0                  python                   
 findutils               4.9.0-r5               apk                      
@@ -115,7 +115,7 @@ packaging               26.2                   python
 paramiko                4.0.0                  python                   
 pcre2                   10.43-r0               apk                      
 pillow                  12.2.0                 python                   
-pip                     26.1                   python                   
+pip                     26.1.1                 python                   
 platformdirs            4.4.0                  python                   
 portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
@@ -130,7 +130,7 @@ python-dateutil         2.9.0.post0            python
 python3                 3.12.13-r0             apk                      
 python3-pyc             3.12.13-r0             apk                      
 python3-pycache-pyc0    3.12.13-r0             apk                      
-pytz                    2026.1.post1           python                   
+pytz                    2026.2                 python                   
 readline                8.2.10-r0              apk                      
 requests                2.33.1                 python                   
 requests-futures        1.0.2                  python                   
@@ -145,12 +145,12 @@ sqlite-libs             3.45.3-r3              apk
 sqlobject               3.13.1                 python                   
 ssdp                    1.3.1                  python                   
 ssl_client              1.36.1-r31             apk                      
-tempora                 5.8.1                  python                   
+tempora                 5.9.0                  python                   
 tiff                    4.6.0t-r0              apk                      
 tomli                   2.4.0                  python                   
-typer                   0.25.0                 python                   
+typer                   0.25.1                 python                   
 typer-slim              0.24.0                 python                   
-tzdata                  2026a-r0               apk                      
+tzdata                  2026b-r0               apk                      
 tzlocal                 5.3.1                  python                   
 urllib3                 2.6.3                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
@@ -159,7 +159,7 @@ wheel                   0.46.3                 python
 wheel                   0.47.0                 python                   
 workerpool              0.9.4                  python                   
 xmltodict               1.0.4                  python                   
-xz-libs                 5.6.2-r1               apk                      
+xz-libs                 5.8.3-r0               apk                      
 zc-lockfile             4.0                    python                   
 zipp                    3.23.0                 python                   
 zlib                    1.3.2-r0               apk                      
