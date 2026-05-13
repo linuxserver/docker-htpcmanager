@@ -49,7 +49,7 @@ gui                     UNKNOWN                binary
 gui-32                  UNKNOWN                binary                   
 gui-64                  UNKNOWN                binary                   
 gui-arm64               UNKNOWN                binary                   
-idna                    3.13                   python                   
+idna                    3.15                   python                   
 importlib-metadata      8.7.1                  python                   
 invoke                  3.0.3                  python                   
 jaraco-collections      5.2.1                  python                   
@@ -98,7 +98,7 @@ libxpm                  3.5.19-r0              apk
 libxt                   1.3.0-r5               apk                      
 linux-pam               1.6.0-r0               apk                      
 mako                    1.3.12                 python                   
-markdown-it-py          4.0.0                  python                   
+markdown-it-py          4.2.0                  python                   
 markupsafe              3.0.3                  python                   
 mdurl                   0.1.2                  python                   
 more-itertools          10.8.0                 python                   
@@ -112,7 +112,7 @@ nghttp2-libs            1.62.1-r0              apk
 oniguruma               6.9.9-r0               apk                      
 packaging               26.0                   python                   
 packaging               26.2                   python                   
-paramiko                4.0.0                  python                   
+paramiko                5.0.0                  python                   
 pcre2                   10.43-r0               apk                      
 pillow                  12.2.0                 python                   
 pip                     26.1.1                 python                   
@@ -132,7 +132,7 @@ python3-pyc             3.12.13-r0             apk
 python3-pycache-pyc0    3.12.13-r0             apk                      
 pytz                    2026.2                 python                   
 readline                8.2.10-r0              apk                      
-requests                2.33.1                 python                   
+requests                2.34.0                 python                   
 requests-futures        1.0.2                  python                   
 rich                    15.0.0                 python                   
 scanelf                 1.3.7-r2               apk                      
@@ -152,7 +152,7 @@ typer                   0.25.1                 python
 typer-slim              0.24.0                 python                   
 tzdata                  2026b-r0               apk                      
 tzlocal                 5.3.1                  python                   
-urllib3                 2.6.3                  python                   
+urllib3                 2.7.0                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
 vnstat                  2.12-r0                apk                      
 wheel                   0.46.3                 python                   
