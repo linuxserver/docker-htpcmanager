@@ -7,7 +7,7 @@ alpine-release          3.20.10-r0             apk
 annotated-doc           0.0.4                  python                   
 aom-libs                3.9.1-r0               apk                      
 apk-tools               2.14.4-r1              apk                      
-apscheduler             3.11.2                 python                   
+apscheduler             3.11.3                 python                   
 autocommand             2.2.2                  python                   
 backports-tarfile       1.2.0                  python                   
 bash                    5.2.26-r0              apk                      
@@ -28,7 +28,7 @@ cli                     UNKNOWN                binary
 cli-32                  UNKNOWN                binary                   
 cli-64                  UNKNOWN                binary                   
 cli-arm64               UNKNOWN                binary                   
-click                   8.4.1                  python                   
+click                   8.4.2                  python                   
 colorama                0.4.6                  python                   
 coreutils               9.5-r2                 apk                      
 coreutils-env           9.5-r2                 apk                      
@@ -149,10 +149,10 @@ ssl_client              1.36.1-r31             apk
 tempora                 5.9.0                  python                   
 tiff                    4.6.0t-r0              apk                      
 tomli                   2.4.0                  python                   
-typer                   0.26.7                 python                   
+typer                   0.26.8                 python                   
 typer-slim              0.24.0                 python                   
 tzdata                  2026b-r0               apk                      
-tzlocal                 5.4.3                  python                   
+tzlocal                 5.4.4                  python                   
 urllib3                 2.7.0                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
 vnstat                  2.12-r0                apk                      
