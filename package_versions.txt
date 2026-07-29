@@ -4,7 +4,7 @@ alpine-baselayout       3.6.5-r0               apk
 alpine-baselayout-data  3.6.5-r0               apk                      
 alpine-keys             2.4-r1                 apk                      
 alpine-release          3.20.10-r0             apk                      
-annotated-doc           0.0.4                  python                   
+annotated-doc           0.0.5                  python                   
 aom-libs                3.9.1-r0               apk                      
 apk-tools               2.14.4-r1              apk                      
 apscheduler             3.11.3                 python                   
@@ -19,7 +19,7 @@ c-ares                  1.33.1-r0              apk
 ca-certificates         20260413-r0            apk                      
 ca-certificates-bundle  20260413-r0            apk                      
 catatonit               0.2.0-r0               apk                      
-certifi                 2026.6.17              python                   
+certifi                 2026.7.22              python                   
 cffi                    2.1.0                  python                   
 charset-normalizer      3.4.9                  python                   
 cheroot                 11.1.2                 python                   
@@ -131,7 +131,7 @@ python-dateutil         2.9.0.post0            python
 python3                 3.12.13-r0             apk                      
 python3-pyc             3.12.13-r0             apk                      
 python3-pycache-pyc0    3.12.13-r0             apk                      
-pytz                    2026.2                 python                   
+pytz                    2026.3.post1           python                   
 readline                8.2.10-r0              apk                      
 requests                2.34.2                 python                   
 requests-futures        1.0.2                  python                   
