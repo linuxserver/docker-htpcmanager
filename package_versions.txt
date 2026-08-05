@@ -20,7 +20,7 @@ ca-certificates         20260413-r0            apk
 ca-certificates-bundle  20260413-r0            apk                      
 catatonit               0.2.0-r0               apk                      
 certifi                 2026.7.22              python                   
-cffi                    2.1.0                  python                   
+cffi                    2.1.1                  python                   
 charset-normalizer      3.4.9                  python                   
 cheroot                 11.1.2                 python                   
 cherrypy                18.10.0                python                   
@@ -34,7 +34,7 @@ coreutils               9.5-r2                 apk
 coreutils-env           9.5-r2                 apk                      
 coreutils-fmt           9.5-r2                 apk                      
 coreutils-sha512sum     9.5-r2                 apk                      
-cryptography            49.0.0                 python                   
+cryptography            50.0.0                 python                   
 curl                    8.14.1-r2              apk                      
 filetype                1.2.0                  python                   
 findutils               4.9.0-r5               apk                      
@@ -98,7 +98,7 @@ libxext                 1.3.6-r2               apk
 libxpm                  3.5.19-r0              apk                      
 libxt                   1.3.0-r5               apk                      
 linux-pam               1.6.0-r0               apk                      
-mako                    1.3.12                 python                   
+mako                    1.4.0                  python                   
 markdown-it-py          4.2.0                  python                   
 markupsafe              3.0.3                  python                   
 mdurl                   0.1.2                  python                   
@@ -112,11 +112,11 @@ netcat-openbsd          1.226-r0               apk
 nghttp2-libs            1.62.1-r0              apk                      
 oniguruma               6.9.9-r0               apk                      
 packaging               26.0                   python                   
-packaging               26.2                   python                   
+packaging               26.3                   python                   
 paramiko                5.0.0                  python                   
 pcre2                   10.43-r0               apk                      
 pillow                  12.3.0                 python                   
-pip                     26.1.2                 python                   
+pip                     26.2.1                 python                   
 platformdirs            4.4.0                  python                   
 portend                 3.2.1                  python                   
 procps-ng               4.0.4-r0               apk                      
@@ -149,7 +149,7 @@ ssl_client              1.36.1-r31             apk
 tempora                 5.12.0                 python                   
 tiff                    4.6.0t-r0              apk                      
 tomli                   2.4.0                  python                   
-typer                   0.27.0                 python                   
+typer                   0.27.1                 python                   
 typer-slim              0.24.0                 python                   
 typing-extensions       4.16.0                 python                   
 tzdata                  2026b-r0               apk                      
