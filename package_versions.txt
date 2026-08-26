@@ -21,7 +21,7 @@ ca-certificates-bundle  20260413-r0            apk
 catatonit               0.2.0-r0               apk                      
 certifi                 2026.7.22              python                   
 cffi                    2.1.1                  python                   
-charset-normalizer      3.4.9                  python                   
+charset-normalizer      3.5.1                  python                   
 cheroot                 11.1.2                 python                   
 cherrypy                18.10.0                python                   
 cli                     UNKNOWN                binary                   
@@ -34,7 +34,7 @@ coreutils               9.5-r2                 apk
 coreutils-env           9.5-r2                 apk                      
 coreutils-fmt           9.5-r2                 apk                      
 coreutils-sha512sum     9.5-r2                 apk                      
-cryptography            50.0.0                 python                   
+cryptography            50.0.1                 python                   
 curl                    8.14.1-r2              apk                      
 filetype                1.2.0                  python                   
 findutils               4.9.0-r5               apk                      
@@ -49,7 +49,7 @@ gui                     UNKNOWN                binary
 gui-32                  UNKNOWN                binary                   
 gui-64                  UNKNOWN                binary                   
 gui-arm64               UNKNOWN                binary                   
-idna                    3.18                   python                   
+idna                    3.19                   python                   
 importlib-metadata      8.7.1                  python                   
 invoke                  3.0.3                  python                   
 jaraco-collections      5.2.1                  python                   
@@ -124,7 +124,7 @@ pyasn1                  0.6.4                  python
 pyc                     3.12.13-r0             apk                      
 pycparser               3.0                    python                   
 pydispatcher            2.0.7                  python                   
-pygments                2.20.0                 python                   
+pygments                2.21.0                 python                   
 pynacl                  1.6.2                  python                   
 pypi-xmlrpc             2020.12.3              python                   
 python-dateutil         2.9.0.post0            python                   
