@@ -154,7 +154,7 @@ typer-slim              0.24.0                 python
 typing-extensions       4.16.0                 python                   
 tzdata                  2026b-r0               apk                      
 tzlocal                 5.4.4                  python                   
-urllib3                 2.7.0                  python                   
+urllib3                 2.8.0                  python                   
 utmps-libs              0.1.2.2-r1             apk                      
 vnstat                  2.12-r0                apk                      
 wheel                   0.46.3                 python                   
