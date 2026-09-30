@@ -131,7 +131,7 @@ python-dateutil         2.9.0.post0            python
 python3                 3.12.13-r0             apk                      
 python3-pyc             3.12.13-r0             apk                      
 python3-pycache-pyc0    3.12.13-r0             apk                      
-pytz                    2026.3.post1           python                   
+pytz                    2026.4                 python                   
 readline                8.2.10-r0              apk                      
 requests                2.34.2                 python                   
 requests-futures        1.1.0                  python                   
