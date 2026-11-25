@@ -4,7 +4,7 @@ alpine-baselayout       3.6.5-r0               apk
 alpine-baselayout-data  3.6.5-r0               apk                      
 alpine-keys             2.4-r1                 apk                      
 alpine-release          3.20.10-r0             apk                      
-annotated-doc           0.0.6                  python                   
+annotated-doc           0.0.7                  python                   
 annotated-types         0.8.0                  python                   
 aom-libs                3.9.1-r0               apk                      
 apk-tools               2.14.4-r1              apk                      
@@ -18,9 +18,9 @@ c-ares                  1.33.1-r0              apk
 ca-certificates         20260413-r0            apk                      
 ca-certificates-bundle  20260413-r0            apk                      
 catatonit               0.2.0-r0               apk                      
-certifi                 2026.10.23             python                   
+certifi                 2026.11.20             python                   
 cffi                    2.1.1                  python                   
-charset-normalizer      3.5.2                  python                   
+charset-normalizer      3.5.3                  python                   
 cheroot                 11.1.2                 python                   
 cherrypy                18.10.0                python                   
 click                   8.5.1                  python                   
@@ -97,7 +97,7 @@ ncurses-terminfo-base   6.4_p20240420-r2       apk
 netcat-openbsd          1.226-r0               apk                      
 nghttp2-libs            1.62.1-r0              apk                      
 oniguruma               6.9.9-r0               apk                      
-packaging               26.3                   python                   
+packaging               26.4                   python                   
 paramiko                5.1.0                  python                   
 pcre2                   10.43-r0               apk                      
 pillow                  13.0.0                 python                   
@@ -107,8 +107,8 @@ procps-ng               4.0.4-r0               apk
 pyasn1                  0.6.5                  python                   
 pyc                     3.12.13-r0             apk                      
 pycparser               3.12                   python                   
-pydantic                2.14.3                 python                   
-pydantic-core           2.50.4                 python                   
+pydantic                2.14.4                 python                   
+pydantic-core           2.50.5                 python                   
 pydispatcher            2.0.7                  python                   
 pygments                2.21.0                 python                   
 pynacl                  1.6.2                  python                   
@@ -133,7 +133,7 @@ ssdp                    1.3.1                  python
 ssl_client              1.36.1-r31             apk                      
 tempora                 5.13.0                 python                   
 tiff                    4.6.0t-r0              apk                      
-typer                   0.29.1                 python                   
+typer                   0.29.2                 python                   
 typer-slim              0.24.0                 python                   
 typing-extensions       4.16.0                 python                   
 typing-inspection       0.4.5                  python                   
